@@ -1,0 +1,5 @@
+dmz set up 
+- dmz fire wall -> servers -> GoTo Lockers -> Internal firewall -> database
+
+idea:
+locker app -> verify if user making request is valid user -> if valid server sends request to computer locker -> unlocks the locker

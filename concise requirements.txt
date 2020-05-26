@@ -1,0 +1,65 @@
+App
+
+1. database log information (user_id, user's name, diver license ID, school ID, email, phone number, locker time...)
+2. forms of ID (UCI ID + drivers license) -> valid uci email address -> send affirmation code
+3. option to enter credit card, or via Venmo or Paypal for first 3 hours (but after 3 hours what happens? forced to get credit card? maybe permanantly locked, after 30 days we have the right to return it to the school?)
+4. Let app tell user to of expriation warning of the locker, needs to keep time that the locker was 
+5. Every 24 hours, 3 free hours get reset, but 3 hours only pertains to the 24 hours per user, database will have to hold this data in a class probably
+6. locker availability, locate nearby lockers by gps
+7. one database per campus
+
+
+Ads
+
+1. 3-4 screens to display the ads
+2. micro PC that can drive all four monitors with a special graphics card
+3. 2 types of ads: static (no video), looped video
+4. simple website for submitting ads (minimum they buy 1 week of ads)
+5. selection (time, week, category of audience || should we share this?)
+	5.1. publish button on vendor end
+	5.2. approval system on our end
+	5.3. inform vendor that ad will be out from (start date to end date)
+6. need a computer at the site of the lockers to automatically display and receive ads
+7. school override emergency alerts (zot alert) 
+
+Demo?
+
+Security camera 
+1. buy it from costco
+2. usually logs everything on a hard drive
+3. use whatever is available on hard drive to fit the requirements 
+
+Hardware
+1. research nfc chips
+2. locker retrofit?
+
+1. problem statement should not include the emergency boradcast
+2. what effect does the college have when it does not have the lockers? whats the problem?
+3. that contactless locker system, how do we differentiate from them?
+4. why don't university have this already? 
+5. fair use? who gets the lockers? 
+6. liability? do not include alerting the officials, do we need recording really??
+7. look at patents
+
+
+
+
+HabitWIFI IP: 192.168.0.15
+
+1. esp8266 has red light with no blue light
+2. reset esp8266 by connecting the ground coming from esp8266 (h1) into the breadboard that is connected to 3.3V arduino
+3. This should power off the esp8266
+4. Then release the ground h1
+5. this will turn on the esp8266 again
+6. disconnect usb
+7. connect ground h1 with f2 for some reason which is GPIO2
+8. connect usb
+8. this will have the solid red light and solid blue light on
+9. disconnect usb
+10. connect h1 ground with esp8266 GPI01 to put it into programming mode
+11. connect usb
+12. upload code
+13. repeat the reset step while serial monitor is on, wifi should be displayed.
+
+
+http://192.168.0.20
